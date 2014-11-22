@@ -26,9 +26,8 @@ div#container_footer {
 
 div#header {
 	width: 600px;
-	height: 90px; 
-	padding:0px 0px 0px 50px;
-	float: left;
+	height: 100px; 
+	padding:0px 0px 10px 350px;
 	 }
 	
 div#info {
@@ -72,14 +71,14 @@ div#footer {
 
 #menu1 {
 	margin:0;
-	padding: 0; 
+	padding: 0px 0px 0px 150px; 
 	list-style: none; }
 
 #menu1 a { 
 	width: 118px;
 	padding: 10px 10px;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-align:center;
 	display: block; } 
 
@@ -94,11 +93,11 @@ div#footer {
 	
 #menu1 .m1 a { 
 	color: #fff; 
-	background-color: #e2b11c; } 
+	background-color: #eb705e; } 
 	
 #menu1 .m1 a:hover { 
-	color: #fff; 
-	background-color: #8d6d0b; }
+	color: #777; 
+	background-color: #eee363; }
 
 /* Nagivation Menu Current Tab */
 
@@ -106,8 +105,8 @@ div#footer {
 	border-bottom: #fff solid 0px;}
 	
 #menu1 .now a { 
-	color: #fff; 
-	background-color: #8d6d0b; }
+	color: #777; 
+	background-color: #eee363; }
 
 /* Nagivation Menu 2nd-level List */
 
