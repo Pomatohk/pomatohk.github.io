@@ -48,6 +48,11 @@ div#content {
 	height: 490px; 
 	padding:0px 0px 0px 60px;  }
 	
+div#youtubecontent {
+	width: 830px;
+	height: 490px; 
+	padding:50px 0px 0px 143px;  }
+	
 div#content2 {
 	width: 830px;
 	height: 100px; 
@@ -135,44 +140,7 @@ div#footer {
 #menu1 li:hover ul { 
 	display: block; }
 
-/* Sub-Menu */
-#menu2 {
-	float:right;
-	margin:0;
-	padding: 0; 
-	list-style: none; }
 
-#menu2 a { 
-	width: 60px;
-	padding: 5px 5px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align:center;
-	display: block; } 
-
-/* Sub-Menu Tabs */
-#menu2 .m1 { 
-	margin:0;
-	padding:2px;
-	font-weight: bold;
-	font-size: 12px;
-	float: left; }
-	
-#menu2 .m1 a { 
-	color: #eee; 
-	background-color: #666; } 
-	
-#menu2 .m1 a:hover { 
-	color: #666; 
-	background-color: #DDD; }
-
-/* Sub-Menu Current Tab */
-#menu2 .now { 
-	border-bottom: #fff solid 1px;}
-	
-#menu2 .now a { 
-	color: #666; 
-	background-color: #DDD; }
 
 	
 a:link {color:#000;}
