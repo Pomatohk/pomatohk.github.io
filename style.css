@@ -48,6 +48,21 @@ div#content {
 	height: 490px; 
 	padding:0px 0px 0px 60px;  }
 	
+div#splitleft {
+	width: 330px;
+	height: 490px; 
+	padding: 30px 0px 0px 100px;
+	float: left; }
+
+div#splitright {
+	width: 300px;
+	height: 490px; 
+	padding: 30px 0px 0px 10px;
+	float: left;
+	text-align: justify;
+	line-height: 150%;
+	color: #888;  }
+
 div#youtubecontent {
 	width: 830px;
 	height: 490px; 
