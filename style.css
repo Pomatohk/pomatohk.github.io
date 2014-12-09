@@ -2,25 +2,11 @@ body {font-family: Arial;background-color: #AAA;}
 
 /* container */
 
-div#container_head { 
-	background-image: url(./graphics/container3.png);
-	width: 955px;
-	height: 30px;
-	margin: 0 auto; }
-	
-div#container_footer { 
-	background-image: url(./graphics/container3.png);
-	width: 955px;
-	height: 30px;
-	margin: 0 auto; 
-	clear: both;}
-
 #container_body {
 	background-image: url(./graphics/container3.png);
 	width: 955px;
 	margin: 0 auto; 
-	float: none;
-	clear: both; }
+	float: none;}
 	
 /* main */
 
@@ -50,9 +36,15 @@ div#content {
 		
 div#infocontent {
 	width: 830px;
-	height: 410px; 
-	padding:30px 0px 0px 182px;  }
-	
+	padding:10px 0px 0px 182px;  }
+
+div#infotitle {
+	width: 590px;
+	background-color: #777;
+	color: #FFF;
+    font-size: 15px;
+	padding: 5px 0px 5px 10px;  }
+
 div#splitleft {
 	width: 330px;
 	height: 410px; 
@@ -197,6 +189,8 @@ a.captionOrange:hover
 {
     background: url(./img/browser-icons.png);
 }
+
+
 
 	
 a:link {color:#FFF;}
