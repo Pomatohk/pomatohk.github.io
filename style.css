@@ -3,13 +3,13 @@ body {font-family: Arial;background-color: #AAA;}
 /* container */
 
 div#container_head { 
-	background-image: url(./graphics/container1.png);
+	background-image: url(./graphics/container3.png);
 	width: 955px;
 	height: 30px;
 	margin: 0 auto; }
 	
 div#container_footer { 
-	background-image: url(./graphics/container2.png);
+	background-image: url(./graphics/container3.png);
 	width: 955px;
 	height: 30px;
 	margin: 0 auto; 
@@ -45,28 +45,28 @@ div#menu {
 	
 div#content {
 	width: 830px;
-	height: 450px; 
+	height: 410px; 
 	padding:0px 0px 0px 60px;  }
+		
+div#infocontent {
+	width: 830px;
+	height: 410px; 
+	padding:30px 0px 0px 182px;  }
 	
 div#splitleft {
 	width: 330px;
-	height: 450px; 
+	height: 410px; 
 	padding: 30px 0px 0px 100px;
 	float: left; }
 
 div#splitright {
 	width: 300px;
-	height: 450px; 
+	height: 410px; 
 	padding: 30px 0px 0px 10px;
 	float: left;
 	text-align: justify;
 	line-height: 150%;
 	color: #888;  }
-
-div#youtubecontent {
-	width: 830px;
-	height: 490px; 
-	padding:50px 0px 0px 143px;  }
 	
 div#content2 {
 	width: 830px;
@@ -155,10 +155,51 @@ div#footer {
 #menu1 li:hover ul { 
 	display: block; }
 
+/* Caption Style */
 
+.captionOrange, .captionBlack
+{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.captionOrange
+{
+    background: #EB5100;
+    background-color: rgba(235, 81, 0, 0.6);
+}
+
+.captionBlack
+{
+    font-size:16px;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.captionOrange:hover
+{
+    color: #eb5100;
+    text-decoration: underline;
+    background-color: #eeeeee;
+    background-color: rgba(238, 238, 238, 0.7);
+}
+
+.bricon
+{
+    background: url(./img/browser-icons.png);
+}
 
 	
-a:link {color:#000;}
-a:visited {color:#000;}
-a:hover {color:#AAA;}
-a:active {color:#000;}
+a:link {color:#FFF;}
+a:visited {color:#FFF; text-decoration: none;}
+a:hover {color:#CCC;}
+a:active {color:#FFF;}
