@@ -3,9 +3,11 @@ body {font-family: Arial;background-color: #AAA;}
 /* container */
 
 #container_body {
-	background-image: url(./graphics/container3.png);
+	background-color: #fff;
+	background-repeat: repeat-y;
 	width: 955px;
-	margin: 0 auto; 
+	min-height: 100%;
+	margin: 0px auto; 
 	float: none;}
 	
 /* main */
@@ -15,7 +17,7 @@ div#header {
 	height: 100px; 
 	padding:0px 0px 10px 350px;
 	 }
-	
+
 div#info {
 	width: 255px;
 	height: 90px; 
