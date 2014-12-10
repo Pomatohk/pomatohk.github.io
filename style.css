@@ -3,17 +3,17 @@ body {font-family: Arial;background-color: #AAA;}
 /* container */
 
 #container_body {
-	background-color: #AAA;
-	width: 955px;
+	background-color: #FFF;
+	width: 800px;
 	margin: 0px auto; 
 	float: none;}
 	
 /* main */
 
 div#header {
-	width: 600px;
+	width: 800px;
 	height: 100px; 
-	padding:0px 0px 10px 350px;
+	padding:0px 0px 10px 260px;
 	 }
 
 div#info {
@@ -24,10 +24,9 @@ div#info {
 	float: left; }
 
 div#menu {
-	width: 855px;
+	width: 800px;
 	height: 40px; 
-	padding: 0px 50px 10px 50px; 
-	clear: both;}
+	padding: 0px 0px 10px 120px; }
 	
 div#content {
 	width: 830px;
@@ -35,8 +34,8 @@ div#content {
 	padding:0px 0px 0px 60px;  }
 		
 div#infocontent {
-	width: 830px;
-	padding:10px 0px 0px 182px;  }
+	width: 800px;
+	padding:10px 0px 0px 102px;  }
 
 div#infotitle {
 	width: 590px;
@@ -47,13 +46,13 @@ div#infotitle {
 
 div#splitleft {
 	width: 330px;
-	height: 410px; 
-	padding: 30px 0px 0px 100px;
+	height: 450px; 
+	padding: 30px 0px 0px 20px;
 	float: left; }
 
 div#splitright {
 	width: 300px;
-	height: 410px; 
+	height: 450px; 
 	padding: 30px 0px 0px 10px;
 	float: left;
 	text-align: justify;
@@ -83,7 +82,7 @@ div#footer {
 
 #menu1 {
 	margin:0;
-	padding: 0px 0px 0px 150px; 
+	padding: 0px 0px 0px 0px; 
 	list-style: none; }
 
 #menu1 a { 
