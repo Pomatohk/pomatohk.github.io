@@ -3,10 +3,8 @@ body {font-family: Arial;background-color: #AAA;}
 /* container */
 
 #container_body {
-	background-color: #fff;
-	background-repeat: repeat-y;
+	background-color: #AAA;
 	width: 955px;
-	min-height: 100%;
 	margin: 0px auto; 
 	float: none;}
 	
