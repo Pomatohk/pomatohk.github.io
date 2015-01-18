@@ -41,9 +41,6 @@ div#poster
 article
 {margin:8px 5px 5px; padding:10px; background-color:#FFF;}
 
-aside
-{border:3px solid #666; margin:5px; padding:10px; background-color:#EEE;}
-
 footer{
 border:3px solid #eb705e;
 margin:5px auto;
@@ -64,13 +61,16 @@ a:active {color:#555;}
 
 nav {
 border:3px solid #eb705e;
-margin:0px auto;
+margin:5px auto;
 padding:10px;
 background-color: #eb705e;
 text-align: center;
 }
 
+nav ul
+{margin:0; padding:0; font-size: 1.3em; }
+
 nav ul li
-{margin:0px;}
+{display:inline; margin:10px;}
 
 }
