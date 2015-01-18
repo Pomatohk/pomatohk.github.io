@@ -67,15 +67,10 @@ border:3px solid #eb705e;
 margin:0px auto;
 padding:10px;
 background-color: #eb705e;
-text-align: left;
+text-align: center;
 }
 
 nav ul li
 {margin:0px;}
-
-a {
-display: block;
-margin: 0px;
-}
 
 }
