@@ -9,6 +9,7 @@ h5 {font-size: 0.8em;}
 header{
 margin:5px auto;
 text-align: left;
+height:100px;
 max-width:1000px;
 }
 
@@ -60,6 +61,11 @@ a:hover {color:#555;}
 a:active {color:#555;}
 
 @media screen and (max-device-width: 560px) {
+
+header{
+text-align: center;
+height:60px;
+}
 
 nav {
 border:3px solid #eb705e;
