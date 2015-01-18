@@ -42,6 +42,11 @@ max-width: 1000px;
 article
 {margin:10px 5px; padding:10px; background-color:#FFF;}
 
+div#icon {
+padding:10px; 
+max-width: 200px
+}
+
 footer{
 border:3px solid #eb705e;
 margin:5px auto;
