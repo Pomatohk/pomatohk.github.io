@@ -73,4 +73,10 @@ nav ul
 nav ul li
 {display:inline; margin:10px;}
 
+div#poster
+{margin:0px;}
+
+article
+{margin:10px 0px; padding:10px; background-color:#FFF;}
+
 }
