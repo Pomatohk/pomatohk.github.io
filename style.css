@@ -27,17 +27,17 @@ nav ul
 nav ul li
 {display:inline; margin:10px;}
 
-section{
-border:3px solid #CCC;
-margin:10px auto;
-padding:10px;
-background-color:#CCC;
-max-width: 1000px;
+div#poster {
+margin:10px auto 0px auto;
+max-width: 1025px;
 }
 
-div#poster {
+section {
+border:3px solid #CCC;
 margin:10px auto;
-max-width: 1025px;
+padding:5px 10px;
+background-color:#CCC;
+max-width: 1000px;
 }
 
 article
@@ -80,6 +80,6 @@ nav ul li
 {display:inline; margin:10px;}
 
 article
-{margin:10px 0px 10px 0px; padding:10px;}
+{margin:10px 0px; padding:10px;}
 
 }
