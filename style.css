@@ -1,197 +1,81 @@
-body {font-family: Arial;background-color: #AAA;}
+body {font: normal 100% sans-serif; background-color: #FFF;}
 
-/* container */
+h1 {font-size: 1.9em;}
+h2 {font-size: 1.6em;}
+h3 {font-size: 1.3em;}
+h4 {font-size: 1em;}
+h5 {font-size: 0.8em;}
 
-#container_body {
-	background-color: #FFF;
-	width: 800px;
-	margin: 0px auto; 
-	float: none;}
-	
-/* main */
-
-div#header {
-	width: 500px;
-	height: 80px; 
-	padding: 10px 0px 10px 300px;
-	 }
-
-div#info {
-	width: 255px;
-	height: 90px; 
-	padding:0px 50px 0px 0px;
-	font-size:12px;
-	float: left; }
-
-div#menu {
-	width: 800px;
-	height: 40px; 
-	padding: 0px 0px 10px 120px; }
-	
-div#content {
-	width: 800px;
-	height: 410px; 
-	padding:0px 0px 0px 60px;  }
-		
-div#infocontent {
-	width: 800px;
-	padding:10px 0px 0px 102px;  }
-
-div#infotitle {
-	width: 590px;
-	background-color: #777;
-	color: #FFF;
-    font-size: 15px;
-	padding: 5px 0px 5px 10px;  }
-
-div#splitleft {
-	width: 330px;
-	height: 450px; 
-	padding: 30px 0px 0px 20px;
-	float: left;
-	color: #888; }
-
-div#splitright {
-	width: 300px;
-	height: 450px; 
-	padding: 30px 0px 0px 10px;
-	float: left;
-	text-align: justify;
-	line-height: 150%;
-	color: #888;  }
-	
-div#content2 {
-	width: 800px;
-	height: 100px; 
-	padding:0px 0px 0px 250px;  }
-	
-div#wrap {
-	display: table; }
-
-div#cell {
-	display: table-cell;
-	vertical-align: middle; }
-
-div#footer { 
-	clear: both;
-    font-size: 12px;
-	text-align: center;
-    padding: 15px;
-    color: #AAA; }
-	
-/* Nagivation Menu */
-
-#menu1 {
-	margin:0;
-	padding: 0px 0px 0px 0px; 
-	list-style: none; }
-
-#menu1 a { 
-	width: 118px;
-	padding: 10px 10px;
-	text-decoration: none;
-	text-transform: none;
-	text-align:center;
-	display: block; } 
-
-/* Nagivation Menu Tabs */
-
-#menu1 .m1 { 
-	margin:0;
-	padding:2px;
-	font-weight: bold;
-	font-size: 17px;
-	float: left; }
-	
-#menu1 .m1 a { 
-	color: #fff; 
-	background-color: #eb705e; } 
-	
-#menu1 .m1 a:hover { 
-	color: #777; 
-	background-color: #eee363; }
-
-/* Nagivation Menu Current Tab */
-
-#menu1 .now { 
-	border-bottom: #fff solid 0px;}
-	
-#menu1 .now a { 
-	color: #777; 
-	background-color: #eee363; }
-
-/* Nagivation Menu 2nd-level List */
-
-#menu1 .m1 ul { 
-	display: none;
-	position: absolute;
-	list-style: none;
-	top: 26px; left: 0;
-	border-top: #eee solid 1px;
-	z-index: 100; }
-
-/* Nagivation Menu Items in 2nd-level List */
-
-#menu1 .m2 { margin: 0; padding: 0; }
-
-#menu1 .m2 a { 
-	padding: 3px 10px;
-	width: 100px;
-	color: #eee;
-	background: #999;
-	border: #eee solid 1px; }
-
-#menu1 .m2 a:hover { 
-	border: #f90 solid 1px; }
-
-#menu1 li:hover ul { 
-	display: block; }
-
-/* Caption Style */
-
-.captionOrange, .captionBlack
-{
-    color: #fff;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 4px;
+header{
+margin:5px auto;
+text-align: left;
+max-width:1000px;
 }
 
-.captionOrange
-{
-    background: #EB5100;
-    background-color: rgba(235, 81, 0, 0.6);
+nav{
+border:3px solid #eb705e;
+margin:5px auto;
+padding:10px;
+background-color: #eb705e;
+text-align: right;
+max-width:1000px;
 }
 
-.captionBlack
-{
-    font-size:16px;
-    background: #000;
-    background-color: rgba(0, 0, 0, 0.4);
+nav ul
+{margin:0; padding:0; font-size: 1.5em; }
+
+nav ul li
+{display:inline; margin:10px;}
+
+section{
+border:3px solid #CCC;
+margin:10px auto;
+padding:10px;
+background-color:#CCC;
+max-width: 1000px;
 }
 
-a.captionOrange, A.captionOrange:active, A.captionOrange:visited
-{
-    color: #ffffff;
-    text-decoration: none;
+div#poster
+{margin:5px;}
+
+article
+{margin:8px 5px 5px; padding:10px; background-color:#FFF;}
+
+aside
+{border:3px solid #666; margin:5px; padding:10px; background-color:#EEE;}
+
+footer{
+border:3px solid #eb705e;
+margin:5px auto;
+padding:10px;
+background-color: #eb705e;
+color:#FFF;
+text-align: center;
+max-width: 1000px;
+font-size: 0.8em;
 }
 
-a.captionOrange:hover
-{
-    color: #eb5100;
-    text-decoration: underline;
-    background-color: #eeeeee;
-    background-color: rgba(238, 238, 238, 0.7);
-}
-
-.bricon
-{
-    background: url(./img/browser-icons.png);
-}
-
-	
-a:link {color:#FFF;}
+a:link {color:#FFF; text-decoration: none;}
 a:visited {color:#FFF; text-decoration: none;}
-a:hover {color:#CCC;}
-a:active {color:#FFF;}
+a:hover {color:#555;}
+a:active {color:#555;}
+
+@media screen and (max-device-width: 560px) {
+
+nav {
+border:3px solid #eb705e;
+margin:0px auto;
+padding:10px;
+background-color: #eb705e;
+text-align: left;
+}
+
+nav ul li
+{margin:0px;}
+
+a {
+display: block;
+margin: 0px;
+}
+
+}

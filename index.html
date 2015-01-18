@@ -1,351 +1,50 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+<!doctype html>
 <html>
 <head>	
 	<title>Pomato Production</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="shortcut icon" href="./graphics/icon.ico"> 
-    <script type="text/javascript" src="./js/jssor.slider.min.js"></script>
-    <script type="text/javascript" src="./js/slideshow.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="./graphics/icon.ico">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" charset="UTF-8">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 </head>
 
 <body>
-<div id="container_body"> 
 
-<div id="header">
-	<img src="./graphics/logo.png" hight="45%" width="45%">
-</div>
+<header><img src="./graphics/logo.png" alt="HTML5" style="height:100px"></header>
 
-<div id="menu">
-	<ul id="menu1">
-	<li class="m1"><a href="about.html">About Pomato</a></li>
-	<li class="m1 now"><a href="index.html">Our Works</a></li>
-	<li class="m1"><a href="equip.html">Equipment</a></li>
-	<li class="m1"><a href="contact.html">Contact</a></li>
+<nav>
+	<ul>
+	 <li><a href="index.html">About</a></li>
+ 	 <li><a href="index.html">Portfolio</a></li>
+ 	 <li><a href="index.html">Contact</a></li>
 	</ul>
+</nav>
+
+<section>
+
+<div id="poster">
+<img src="./img/thumb/thatsall01.jpg" alt="HTML5" style="width: 100%">
 </div>
 
-<div id="infocontent">
-	<div id="infotitle">Contest</div>
-    <div id="slider1_container" style="position: relative; width: 600px; height: 250px; overflow: hidden; ">
+<article>
+<h3>Who are we?</h3>
+<p>A video production team based in Hong Kong founded by eight passionate graduates of film school.</p>
+</article>
 
-        <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 250px;
-            overflow: hidden;">
-            <div>
-            <a href="http://www.youtube.com/watch?v=BZEioUkoImM" style="text-decoration:none;" target="_blank">
-                <img u=image src="./img/thumb/kaitak.jpg" width=600px height=250px />
-            </a>
-                <div u="thumb">《 One more time 》</br>‘A Place For You’ Video Contest by m21 - Tertiary Students Division (Gold)</div>
-            </div>
-            <div>
-            <a href="http://www.ipsociety.com.hk/myvideo2014/hongkong/youtube.php?no=h8gHwYNcO7o" style="text-decoration:none;" target="_blank">
-                <img u=image src="./img/thumb/copycat.jpg" width=600px height=250px />
-            </a>
-                <div u="thumb">《 Copycat 》</br>HK and Taiwan "My Video" Competition - Tertiary Students Division (Bronze)</div>
-            </div>
-            <div>
-            <a href="https://www.youtube.com/watch?v=-bhnGt8XCO0" style="text-decoration:none;" target="_blank">
-                <img u=image src="./img/thumb/nbnm.jpg" width=600px height=250px />
-            </a>
-                <div u="thumb">《 No Battery, No Memory 》</br>納米電影創作比賽 by HKAYD - Nominated</div>
-            </div>
-        </div>
-        
-        <!-- ThumbnailNavigator Skin Begin -->
-        <div u="thumbnavigator" class="sliderb-T" style="position: absolute; bottom: 0px; left: 0px; height:40px; width:600px;">
-            <div style="filter: alpha(opacity=20); opacity:0.2; position: absolute; display: block;
-                background-color: #000000; top: 0px; left: 0px; width: 100%; height: 100%;">
-            </div>
-            <!-- Thumbnail Item Skin Begin -->
-            <div u="slides">
-                <div u="prototype" style="position: absolute; width: 600px; height: 30px; top: 0; left: 0;">
-                    <div u="thumbnailtemplate" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; font-family: verdana; font-weight: normal; color:#fff; line-height: 15px; font-size:13px; padding-left:10px;"></div>
-                </div>
-            </div>
-            <!-- Thumbnail Item Skin End -->
-        </div>
-        <!-- ThumbnailNavigator Skin End -->
-        
-        <!-- Bullet Navigator Skin Begin -->
-        <!-- jssor slider bullet navigator skin 01 -->
-        <style>
-            /*
-            .jssorb01 div           (normal)
-            .jssorb01 div:hover     (normal mouseover)
-            .jssorb01 .av           (active)
-            .jssorb01 .av:hover     (active mouseover)
-            .jssorb01 .dn           (mousedown)
-            */
-            .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
-            {
-                filter: alpha(opacity=80);
-                opacity: .8;
-                overflow:hidden;
-                cursor: pointer;
-                border: #000 0px solid;
-            }
-            .jssorb01 div { background-color: gray; }
-            .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
-            .jssorb01 .av { background-color: #fff; }
-            .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
-        </style>
-        <!-- bullet navigator container -->
-        <div u="navigator" class="jssorb01" style="position: absolute; bottom: 16px; right: 10px;">
-            <!-- bullet navigator item prototype -->
-            <div u="prototype" style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px;"></div>
-        </div>
-        <!-- Bullet Navigator Skin End -->
-        
-        <!-- Arrow Navigator Skin Begin -->
-        <style>
-            /* jssor slider arrow navigator skin 05 css */
-            /*
-            .jssora05l              (normal)
-            .jssora05r              (normal)
-            .jssora05l:hover        (normal mouseover)
-            .jssora05r:hover        (normal mouseover)
-            .jssora05ldn            (mousedown)
-            .jssora05rdn            (mousedown)
-            */
-            .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
-            {
-            	position: absolute;
-            	cursor: pointer;
-            	display: block;
-                background: url(./img/button.png) no-repeat;
-                overflow:hidden;
-            }
-            .jssora05l { background-position: -10px -40px; }
-            .jssora05r { background-position: -70px -40px; }
-            .jssora05l:hover { background-position: -130px -40px; }
-            .jssora05r:hover { background-position: -190px -40px; }
-            .jssora05ldn { background-position: -250px -40px; }
-            .jssora05rdn { background-position: -310px -40px; }
-        </style>
-        <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
-        </span>
-        <!-- Arrow Right -->
-        <span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
-        </span>
-        <!-- Arrow Navigator Skin End -->
-        <a style="display: none" href="http://www.jssor.com">javascript</a>
-        <!-- Trigger -->
-        <script>
-            jssor_slider1_starter('slider1_container');
-        </script>
-    </div>
-		</P>
-	<div id="infotitle">Event / Web video</div>
-	<div id="slider3_container" style="position: relative; width: 600px; height: 250px; overflow: hidden; ">
+<article>
+<h3>What we do?</h3>
+<p>We provide services in shooting:</p>
+<p>- web videos</br>- corporate videos</br>- short film</br>- video editing</br>- photography</p>
+</article>
 
-        <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 250px;
-            overflow: hidden;">
-            <div>
-                <img u=image src="./img/thumb/work.jpg" width=600px height=250px />
-                <div u="thumb">《 運動大激鬥 》</br>By Foodsport 膳動衡</div>
-            </div>
-           	<div>
-                <img u=image src="./img/thumb/work.jpg" width=600px height=250px />
-                <div u="thumb">《 千色服式2014時裝表演 》</br>By Symbol Of Alliance</div>
-            </div>
-        </div>
-        
-        <!-- ThumbnailNavigator Skin Begin -->
-        <div u="thumbnavigator" class="sliderb-T" style="position: absolute; bottom: 0px; left: 0px; height:40px; width:600px;">
-            <div style="filter: alpha(opacity=20); opacity:0.2; position: absolute; display: block;
-                background-color: #000000; top: 0px; left: 0px; width: 100%; height: 100%;">
-            </div>
-            <!-- Thumbnail Item Skin Begin -->
-            <div u="slides">
-                <div u="prototype" style="position: absolute; width: 600px; height: 30px; top: 0; left: 0;">
-                    <div u="thumbnailtemplate" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; font-family: verdana; font-weight: normal; color:#fff; line-height: 15px; font-size:13px; padding-left:10px;"></div>
-                </div>
-            </div>
-            <!-- Thumbnail Item Skin End -->
-        </div>
-        <!-- ThumbnailNavigator Skin End -->
-        
-        <!-- Bullet Navigator Skin Begin -->
-        <!-- jssor slider bullet navigator skin 01 -->
-        <style>
-            /*
-            .jssorb01 div           (normal)
-            .jssorb01 div:hover     (normal mouseover)
-            .jssorb01 .av           (active)
-            .jssorb01 .av:hover     (active mouseover)
-            .jssorb01 .dn           (mousedown)
-            */
-            .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
-            {
-                filter: alpha(opacity=80);
-                opacity: .8;
-                overflow:hidden;
-                cursor: pointer;
-                border: #000 0px solid;
-            }
-            .jssorb01 div { background-color: gray; }
-            .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
-            .jssorb01 .av { background-color: #fff; }
-            .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
-        </style>
-        <!-- bullet navigator container -->
-        <div u="navigator" class="jssorb01" style="position: absolute; bottom: 16px; right: 10px;">
-            <!-- bullet navigator item prototype -->
-            <div u="prototype" style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px;"></div>
-        </div>
-        <!-- Bullet Navigator Skin End -->
-        
-        <!-- Arrow Navigator Skin Begin -->
-        <style>
-            /* jssor slider arrow navigator skin 05 css */
-            /*
-            .jssora05l              (normal)
-            .jssora05r              (normal)
-            .jssora05l:hover        (normal mouseover)
-            .jssora05r:hover        (normal mouseover)
-            .jssora05ldn            (mousedown)
-            .jssora05rdn            (mousedown)
-            */
-            .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
-            {
-            	position: absolute;
-            	cursor: pointer;
-            	display: block;
-                background: url(./img/button.png) no-repeat;
-                overflow:hidden;
-            }
-            .jssora05l { background-position: -10px -40px; }
-            .jssora05r { background-position: -70px -40px; }
-            .jssora05l:hover { background-position: -130px -40px; }
-            .jssora05r:hover { background-position: -190px -40px; }
-            .jssora05ldn { background-position: -250px -40px; }
-            .jssora05rdn { background-position: -310px -40px; }
-        </style>
-        <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
-        </span>
-        <!-- Arrow Right -->
-        <span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
-        </span>
-        <!-- Arrow Navigator Skin End -->
-        <a style="display: none" href="http://www.jssor.com">javascript</a>
-        <!-- Trigger -->
-        <script>
-            jssor_slider3_starter('slider3_container');
-        </script>
-    </div>
-    	</P>
-    <div id="infotitle">Video for fun</div>
-    <div id="slider2_container" style="position: relative; width: 600px; height: 250px; overflow: hidden; ">
+</section>
 
-        <!-- Slides Container -->
-        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 250px;
-            overflow: hidden;">
-            <div>
-                <img u=image src="./img/thumb/pomato.jpg" width=600px height=250px />
-                <div u="thumb">《 Pomato 》</br>Stop-motion video, a love story of a tomato and a potato.</div>
-            </div>
-            <div>
-                <img u=image src="./img/thumb/laststep.jpg" width=600px height=250px />
-                <div u="thumb">《 Last Step 》</br>Test video of VFX.</div>
-            </div>
-        </div>
-        
-        <!-- ThumbnailNavigator Skin Begin -->
-        <div u="thumbnavigator" class="sliderb-T" style="position: absolute; bottom: 0px; left: 0px; height:40px; width:600px;">
-            <div style="filter: alpha(opacity=20); opacity:0.2; position: absolute; display: block;
-                background-color: #000000; top: 0px; left: 0px; width: 100%; height: 100%;">
-            </div>
-            <!-- Thumbnail Item Skin Begin -->
-            <div u="slides">
-                <div u="prototype" style="position: absolute; width: 600px; height: 30px; top: 0; left: 0;">
-                    <div u="thumbnailtemplate" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; font-family: verdana; font-weight: normal; color:#fff; line-height: 15px; font-size:13px; padding-left:10px;"></div>
-                </div>
-            </div>
-            <!-- Thumbnail Item Skin End -->
-        </div>
-        <!-- ThumbnailNavigator Skin End -->
-        
-        <!-- Bullet Navigator Skin Begin -->
-        <!-- jssor slider bullet navigator skin 01 -->
-        <style>
-            /*
-            .jssorb01 div           (normal)
-            .jssorb01 div:hover     (normal mouseover)
-            .jssorb01 .av           (active)
-            .jssorb01 .av:hover     (active mouseover)
-            .jssorb01 .dn           (mousedown)
-            */
-            .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
-            {
-                filter: alpha(opacity=80);
-                opacity: .8;
-                overflow:hidden;
-                cursor: pointer;
-                border: #000 0px solid;
-            }
-            .jssorb01 div { background-color: gray; }
-            .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
-            .jssorb01 .av { background-color: #fff; }
-            .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
-        </style>
-        <!-- bullet navigator container -->
-        <div u="navigator" class="jssorb01" style="position: absolute; bottom: 16px; right: 10px;">
-            <!-- bullet navigator item prototype -->
-            <div u="prototype" style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px;"></div>
-        </div>
-        <!-- Bullet Navigator Skin End -->
-        
-        <!-- Arrow Navigator Skin Begin -->
-        <style>
-            /* jssor slider arrow navigator skin 05 css */
-            /*
-            .jssora05l              (normal)
-            .jssora05r              (normal)
-            .jssora05l:hover        (normal mouseover)
-            .jssora05r:hover        (normal mouseover)
-            .jssora05ldn            (mousedown)
-            .jssora05rdn            (mousedown)
-            */
-            .jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
-            {
-            	position: absolute;
-            	cursor: pointer;
-            	display: block;
-                background: url(./img/button.png) no-repeat;
-                overflow:hidden;
-            }
-            .jssora05l { background-position: -10px -40px; }
-            .jssora05r { background-position: -70px -40px; }
-            .jssora05l:hover { background-position: -130px -40px; }
-            .jssora05r:hover { background-position: -190px -40px; }
-            .jssora05ldn { background-position: -250px -40px; }
-            .jssora05rdn { background-position: -310px -40px; }
-        </style>
-        <!-- Arrow Left -->
-        <span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
-        </span>
-        <!-- Arrow Right -->
-        <span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
-        </span>
-        <!-- Arrow Navigator Skin End -->
-        <a style="display: none" href="http://www.jssor.com">javascript</a>
-        <!-- Trigger -->
-        <script>
-            jssor_slider2_starter('slider2_container');
-        </script>
-    </div>
-</div>
+<footer>
+Email: info@pomato.hk</br>
+&copy; 2014-2015 Pomato Production All rights reserved.
+</footer>
 
-
-<div id="footer">
-Email: info@pomato.hk</P>
-Pomato Production 2014
-</div>
-</div>
 </body>
 </html>
