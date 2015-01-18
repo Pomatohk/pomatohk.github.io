@@ -9,34 +9,32 @@ h5 {font-size: 0.8em;}
 header{
 margin:5px auto;
 text-align: left;
-height:100px;
 max-width:1000px;
 }
 
 nav{
 border:3px solid #eb705e;
 margin:5px auto;
-padding:10px;
+padding: 3px 0px;
 background-color: #eb705e;
 text-align: right;
 max-width:1000px;
 }
 
 nav ul
-{margin:0; padding:0; font-size: 1.5em; }
+{margin:0; padding:0; font-size: 1.2em; }
 
 nav ul li
 {display:inline; margin:10px;}
 
 div#poster {
 margin:10px auto 0px auto;
-max-width: 1025px;
+max-width: 1005px;
 }
 
 section {
 border:3px solid #CCC;
 margin:10px auto;
-padding:5px 10px;
 background-color:#CCC;
 max-width: 1000px;
 }
@@ -47,7 +45,7 @@ article
 footer{
 border:3px solid #eb705e;
 margin:5px auto;
-padding:10px;
+padding:10px 0px;
 background-color: #eb705e;
 color:#FFF;
 text-align: center;
