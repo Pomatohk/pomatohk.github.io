@@ -63,4 +63,4 @@ nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 footer {}
 footer .wrap-footer{}
 
-.copyright{text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; }
+.copyright{font-size: 14px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; }
