@@ -16,7 +16,7 @@ nav{
 border:3px solid #eb705e;
 margin:5px auto;
 padding: 3px 0px;
-background-color: #eb705e;
+background-color: #eb705e ;
 text-align: right;
 max-width:1000px;
 }
@@ -27,7 +27,7 @@ nav ul
 nav ul li
 {display:inline; margin:10px;}
 
-div#poster {
+.poster {
 margin:10px auto 0px auto;
 max-width: 1005px;
 }
@@ -42,9 +42,20 @@ max-width: 1000px;
 article
 {margin:10px 5px; padding:10px; background-color:#FFF;}
 
-div#icon {
-padding:10px; 
-max-width: 200px
+ul#tlist li {
+display:inline;
+}
+
+div#thumb {
+padding:5px; 
+max-width: 300px;
+width: auto;
+margin: 5px;
+float: left;
+}
+
+div#thumbend {
+clear: both;
 }
 
 footer{
