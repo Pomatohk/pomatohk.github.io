@@ -1,9 +1,3 @@
-/*
-Free Html5 Responsive Templates
-Author: Kimmy
-Author URI: http://www.zerotheme.com/
-*/
-/* -------------------------------------------- */
 /* ------------------Grid System--------------- */ 
 .zerogrid{ width: 960px; position: relative; margin: 0 auto; padding: 0px;}
 .zerogrid:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
