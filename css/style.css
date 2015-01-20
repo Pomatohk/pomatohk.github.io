@@ -39,7 +39,7 @@ nav {}
 nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 
 .menu ul {list-style: none; margin: 0;padding: 0; }
-.menu ul li {position: relative; float: left; background: #eb705e; }
+.menu ul li {position: relative; float: right; background: #eb705e; }
 .menu ul li:hover {background-color:#DA251D;}
 .menu ul li a {font-size: 20px; line-height:14px; color: #FFF;display: block;padding: 7.5px 10px;margin: 5px;z-index: 6;position: relative;font-weight:bold;}
 .menu ul li:hover a {color:#FFF;}
@@ -53,18 +53,18 @@ nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 /* -------------------------------------------- */
 /* ------------------Content------------------- */
 #content {background: #CCC; }
-#content .wrap-content{margin-top: 30px; background: #FFF;}
+#content .wrap-content{margin-top: 20px; margin-bottom: 20px; background: #FFF;}
 #content .wrap-content2{margin-top: 30px; background: #CCC;}
 
 .gallery{ background: #ffffff; padding: 10px;}
 .gallery h2{font-size: 16px; text-align: center; margin-top: 10px;}
 
-.block01 {margin:20px 10px 0px 10px; padding-top:10px ; border-bottom:1px dashed #CCC;}
+.block01 {margin:0px 10px 0px; padding:0px 30px}
 .block01 h2{text-align:center; font-size:25px; line-height:35px;}
 .block01 p{font-size:20px; text-align:justify; line-height:25px; margin-top:20px}
 .block01 a{color:#DA251D;}
 
-.block_h {margin:10px 10px 0px 10px;}
+.block_h {margin:0px 10px}
 .block_h h2{text-align:center; font-size:25px; line-height:35px;}
 
 .block02 {margin:0px 10px;}
@@ -81,7 +81,7 @@ nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 /* -------------------------------------------- */
 /* ------------------Featured---------------- */
 
-.featured{margin:30px auto 0px auto;}
+.featured{margin:0px auto;}
 .featured .wrap-featured{background:#fff;}
 .featured .wrap-featured .slider{}
 
@@ -90,4 +90,4 @@ nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 footer {}
 footer .wrap-footer{}
 
-.copyright{font-size: 14px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; }
+.copyright{font-size: 12px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:20px;}
