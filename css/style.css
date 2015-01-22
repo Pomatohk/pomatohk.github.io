@@ -59,12 +59,12 @@ nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 .gallery{ background: #ffffff; padding: 10px;}
 .gallery h2{font-size: 16px; text-align: center; margin-top: 10px;}
 
-.block01 {margin:0px 10px 0px; padding:0px 30px}
+.block01 {margin:0px 10px 0px; padding:10px 30px}
 .block01 h2{text-align:center; font-size:25px; line-height:35px;}
 .block01 p{font-size:20px; text-align:justify; line-height:25px; margin-top:20px}
 .block01 a{color:#DA251D;}
 
-.block_h {margin:0px 10px}
+.block_h {margin:0px 10px; padding: 10px 0px;}
 .block_h h2{text-align:center; font-size:25px; line-height:35px;}
 
 .block02 {margin:0px 10px;}
