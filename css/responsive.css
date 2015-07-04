@@ -19,6 +19,8 @@ img{
 	
 	/* -------------------------------------------- */
 	/* ------------------Content------------------- */
+	#content .wrap-content{margin-top: 10px; margin-bottom: 10px;}
+	
 	.block01 {padding:10px 30px}
 	.block01 h2{font-size:20px; line-height:15px;}
 	.block01 p{font-size:15px; text-align:justify; line-height:15px; margin-top:20px}
@@ -51,6 +53,8 @@ img{
 	
 	/* -------------------------------------------- */
 	/* ------------------Content------------------- */
+	#content .wrap-content{margin-top: 10px; margin-bottom: 10px;}
+	
 	.block01 {padding:5px 30px}
 	.block01 h2{font-size:20px; line-height:15px;}
 	.block01 p{font-size:15px; text-align:justify; line-height:15px; margin-top:20px}
@@ -76,6 +80,8 @@ img{
 	
 	/* -------------------------------------------- */
 	/* ------------------Content------------------- */
+	#content .wrap-content{margin-top: 10px; margin-bottom: 10px;}
+	
 	.block01 {padding:5px 30px}
 	.block01 h2{font-size:20px; line-height:15px;}
 	.block01 p{font-size:15px; text-align:justify; line-height:15px; margin-top:20px}
@@ -101,6 +107,8 @@ img{
 	
 	/* -------------------------------------------- */
 	/* ------------------Content------------------- */
+	#content .wrap-content{margin-top: 10px; margin-bottom: 10px;}
+	
 	.block01 {padding:5px 20px}
 	.block01 h2{font-size:20px; line-height:15px;}
 	.block01 p{font-size:15px; text-align:justify; line-height:15px; margin-top:20px}
