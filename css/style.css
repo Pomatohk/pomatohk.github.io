@@ -56,20 +56,20 @@ nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 #content .wrap-content{margin-top: 20px; margin-bottom: 20px; background: #FFF;}
 #content .wrap-content2{margin-top: 30px; background: #CCC;}
 
-.gallery{ background: #ffffff; padding: 10px;}
+.gallery{ background: #ffffff; padding: 5px;}
 .gallery h2{font-size: 16px; text-align: center; margin-top: 10px;}
 
-.block01 {margin:0px 10px 0px; padding:10px 30px}
-.block01 h2{text-align:center; font-size:25px; line-height:35px;}
-.block01 p{font-size:20px; text-align:justify; line-height:25px; margin-top:20px}
+.block01 {margin:0px 10px; padding:5px 30px}
+.block01 h2{text-align:center; font-size:22px; line-height:25px;}
+.block01 p{font-size:18px; text-align:justify; line-height:25px; margin-top:20px}
 .block01 a{color:#DA251D;}
 
-.block_h {margin:0px 10px; padding: 10px 0px 0px 0px;}
-.block_h h2{text-align:center; font-size:25px; line-height:35px;}
+.block_h {margin:0px 10px; padding: 5px 0px 0px 0px;}
+.block_h h2{text-align:center; font-size:22px; line-height:25px;}
 
-.block02 {margin:0px 10px;}
-.block02 h2{font-size:20px; line-height:40px; text-align:center;}
-.block02 p{font-size:16px; text-align:left;}
+.block02 {margin:0px 10px; padding: 0px 0px 5px 0px;}
+.block02 h2{font-size:18px; line-height:40px; text-align:center;}
+.block02 p{font-size:15px; text-align:left;}
 
 .block03 { margin:20px 10px;}
 .block03 h2{font-size:23px; line-height:30px;}
