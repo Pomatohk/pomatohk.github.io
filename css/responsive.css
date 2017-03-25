@@ -13,6 +13,8 @@ img{
    	width: auto\9; /* ie8 */
 }
 
+.copyright{font-size: 12px; text-align:center; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:25px;}
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	/* -------------------------------------------- */
 	/* ------------------Header-------------------- */
@@ -68,7 +70,6 @@ img{
 
 	/* -------------------------------------------- */
 	/* ------------------Footer-------------------- */
-	.copyright{font-size: 8px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:13px;}
 
 	/* -------------------------------------------- */
 	/* ------------------Other----------------*---- */
@@ -95,7 +96,6 @@ img{
 	
 	/* -------------------------------------------- */
 	/* ------------------Footer-------------------- */
-	.copyright{font-size: 8px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:11px;}
 	
 	/* -------------------------------------------- */
 	/* ------------------Other----------------*---- */
@@ -122,7 +122,6 @@ img{
 	
 	/* -------------------------------------------- */
 	/* ------------------Footer-------------------- */
-	.copyright{font-size: 8px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:11px;}
 	
 	/* -------------------------------------------- */
 	/* ------------------Other----------------*---- */
@@ -155,7 +154,6 @@ img{
 	
 	/* -------------------------------------------- */
 	/* ------------------Footer-------------------- */
-	.copyright{font-size: 10px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:13px;}
 	
 	/* -------------------------------------------- */
 	/* ------------------Other----------------*---- */
