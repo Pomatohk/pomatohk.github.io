@@ -13,7 +13,7 @@ img{
    	width: auto\9; /* ie8 */
 }
 
-.copyright{font-size: 12px; text-align:center; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:25px;}
+.copyright{font-size: 12px; text-align:center; background:#E25023; padding:10px 0px;color:#ffffff; line-height:25px;}
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	/* -------------------------------------------- */

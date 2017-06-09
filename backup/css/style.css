@@ -28,32 +28,32 @@ a:active {color:#555;}
 
 /* -------------------------------------------- */
 /* ------------------Header-------------------- */
-header {background: #eb705e; margin-bottom:100px;}
-header .wrap-header{height: 40px;}
+header {background: #E25023; margin-bottom:100px; }
+header .wrap-header{height: 40px; }
 
-header #logo {position:absolute; top: 35px; padding:5px; height: auto;}
+header #logo {position:absolute; top: 35px; padding:5px; height: auto; }
 
 /* -------------------------------------------- */
 /* ------------------Navigation---------------- */
 nav {}
-nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
+nav .wrap-nav{position:relative; height: 40px; background: #E25023; }
 
 .menu ul {list-style: none; margin: 0;padding: 0; }
-.menu ul li {position: relative; float: right; background: #eb705e; }
-.menu ul li:hover {background-color:#DA251D;}
+.menu ul li {position: relative; float: right; background: #E25023; }
+.menu ul li:hover {background-color:#FF8F71;}
 .menu ul li a {font-size: 20px; line-height:14px; color: #FFF;display: block;padding: 7.5px 10px;margin: 5px;z-index: 6;position: relative;font-weight:bold;}
-.menu ul li:hover a {color:#FFF;}
+.menu ul li:hover a {color:#7C1A00;}
 
 .minimenu{display:none;}
-.minimenu{position: relative;margin: 0px;background: #eb705e;}
-.minimenu div{Padding: 10px; overflow: hidden;position: relative; font-size: 20px; color: #fff;text-align:center; font-weight:bold;}
+.minimenu{position: relative;margin: 0px;background: #E25023;}
+.minimenu div{Padding: 5px; overflow: hidden;position: relative; font-size: 20px; color: #fff;text-align:center; font-weight:bold;}
 .minimenu select{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%; opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);	cursor: pointer;}
 
 
 /* -------------------------------------------- */
 /* ------------------Content------------------- */
-#content {background: #CCC; }
-#content .wrap-content{margin-top: 20px; margin-bottom: 20px; background: #FFF;}
+#content {background: #AAA; }
+#content .wrap-content{margin-top: 20px; margin-bottom: 20px; background: #FFF; }
 #content .wrap-content2{margin-top: 30px; background: #CCC;}
 
 .gallery{ background: #ffffff; padding: 5px;}
@@ -90,4 +90,4 @@ nav .wrap-nav{position:relative; height: 40px; background: #eb705e; }
 footer {}
 footer .wrap-footer{}
 
-.copyright{font-size: 12px; text-align:center;; background:#eb705e; padding:10px 0px;color:#ffffff; line-height:20px;}
+.copyright{font-size: 12px; text-align:center;; background:#E25023; padding:10px 0px;color:#ffffff; line-height:20px;}
